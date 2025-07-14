@@ -1,10 +1,10 @@
-# 🚂 Dockerize-RailSathi-code — A Simple Python App
+#  Dockerize-RailSathi-code — A Simple Python App
 
 This repository contains a minimal Python application named **RailSathi**, containerized using **Docker** for consistent environment setup and easy deployment across systems.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -19,7 +19,7 @@ This repository contains a minimal Python application named **RailSathi**, conta
 
 
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - Python 3.x
 - Flask (minimal API)
@@ -27,7 +27,7 @@ This repository contains a minimal Python application named **RailSathi**, conta
 - Docker Compose (optional)
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -50,7 +50,7 @@ python app.py
 App will run locally at `http://127.0.0.1:5000`
 
 
-## 🐳 Docker Instructions
+##  Docker Instructions
 
 ### 1. Build the Docker Image
 
@@ -67,7 +67,7 @@ docker run -p 5000:5000 railsathi-app
 Now visit: [http://localhost:5000](http://localhost:5000)
 
 
-## 🐳 Using Docker Compose (Optional)
+##  Using Docker Compose (Optional)
 
 If using `docker-compose.yml`, you can run:
 
@@ -78,7 +78,7 @@ docker-compose up --build
 This will automatically build and run the app on port 5000.
 
 
-## 🔧 Sample Files
+##  Sample Files
 
 ### app.py
 
