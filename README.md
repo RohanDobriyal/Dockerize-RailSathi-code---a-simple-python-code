@@ -1,8 +1,3 @@
-Sure! Here's your **complete `README.md` file** for the **Dockerize-RailSathi-code---a-simple-python-code** project, written in one go:
-
----
-
-```markdown
 # 🚂 Dockerize-RailSathi-code — A Simple Python App
 
 This repository contains a minimal Python application named **RailSathi**, containerized using **Docker** for consistent environment setup and easy deployment across systems.
