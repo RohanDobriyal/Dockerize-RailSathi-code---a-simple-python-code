@@ -17,7 +17,7 @@ This repository contains a minimal Python application named **RailSathi**, conta
 
 ````
 
----
+
 
 ## ⚙️ Technologies Used
 
@@ -26,7 +26,6 @@ This repository contains a minimal Python application named **RailSathi**, conta
 - Docker
 - Docker Compose (optional)
 
----
 
 ## 🚀 Getting Started
 
@@ -37,7 +36,7 @@ git clone https://github.com/RohanDobriyal/Dockerize-RailSathi-code---a-simple-p
 cd Dockerize-RailSathi-code---a-simple-python-code
 ````
 
----
+
 
 ### 2. Create a Virtual Environment (for local testing)
 
@@ -50,7 +49,6 @@ python app.py
 
 App will run locally at `http://127.0.0.1:5000`
 
----
 
 ## 🐳 Docker Instructions
 
@@ -68,7 +66,6 @@ docker run -p 5000:5000 railsathi-app
 
 Now visit: [http://localhost:5000](http://localhost:5000)
 
----
 
 ## 🐳 Using Docker Compose (Optional)
 
@@ -80,7 +77,6 @@ docker-compose up --build
 
 This will automatically build and run the app on port 5000.
 
----
 
 ## 🔧 Sample Files
 
@@ -98,7 +94,7 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 ```
 
----
+
 
 ### requirements.txt
 
@@ -106,7 +102,7 @@ if __name__ == '__main__':
 flask
 ```
 
----
+
 
 ### Dockerfile
 
@@ -130,7 +126,7 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 ```
 
----
+
 
 ### docker-compose.yml (Optional)
 
@@ -143,7 +139,7 @@ services:
       - "5000:5000"
 ```
 
----
+
 
 
 
@@ -153,7 +149,3 @@ services:
 
 ---
 
-```
-
-You can copy and save this as your `README.md`. Let me know if your app has additional features so I can update it!
-```
